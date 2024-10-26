@@ -1,10 +1,11 @@
 import './App.scss'
+import { NavBar } from './components/navBar/navBar'
 
 
 export function App() {
   return (
     <>
-      <h1>Olá mundo!</h1>
+      <NavBar />
     </>
   )
 }

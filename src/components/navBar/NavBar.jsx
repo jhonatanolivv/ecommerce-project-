@@ -1,3 +1,5 @@
+
+import { CartIcon } from '../cartWidget/cartWidget'
 import './NavBar.scss'
 
 
@@ -13,6 +15,7 @@ export function NavBar() {
                 <a href="#" className='nav-link'>BLACK FRIDAY</a>
                 <a href="#" className='nav-link'>LOGIN</a>
             </div>
+            <CartIcon />
         </div>
     )
 }
